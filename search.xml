@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>MarkText</title>
+      <link href="/2019/06/06/%E4%BB%8A%E5%A4%A9%E5%AE%89%E5%88%A9%E4%B8%80%E6%AC%BE%E5%BC%80%E6%BA%90%E3%80%81%E8%B7%A8%E5%B9%B3%E5%8F%B0markdown%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+      <url>/2019/06/06/%E4%BB%8A%E5%A4%A9%E5%AE%89%E5%88%A9%E4%B8%80%E6%AC%BE%E5%BC%80%E6%BA%90%E3%80%81%E8%B7%A8%E5%B9%B3%E5%8F%B0markdown%E7%BC%96%E8%BE%91%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="今天安利一款开源、跨平台markdown编辑器"><a href="#今天安利一款开源、跨平台markdown编辑器" class="headerlink" title="今天安利一款开源、跨平台markdown编辑器"></a>今天安利一款开源、跨平台markdown编辑器</h1><ul><li><p>Mark Text 所输及所见，摒弃了众多 markdown 编辑器左边写作右边预览的写作方式，巧妙的将编辑和预览融为一体</p></li><li><p><a href="https://link.jianshu.com/?t=https%3A%2F%2Fgithub.com%2Fsnabbdom%2Fsnabbdom" target="_blank" rel="noopener">snabbdom</a>  作为 Mark Text 的渲染引擎，保证了极速渲染编辑页面，带来流程的书写体验；</p></li><li><p>支持  <a href="https://link.jianshu.com/?t=https%3A%2F%2Fspec.commonmark.org%2F0.28%2F" target="_blank" rel="noopener">CommonMark Spec</a>  和  <a href="https://link.jianshu.com/?t=https%3A%2F%2Fgithub.github.com%2Fgfm%2F" target="_blank" rel="noopener">GitHub Flavored Markdown Spec</a>  语法格式，生成的 Markdown 可以复制到任何支持 markdown 格式的社区、网站；</p></li><li><p>段落及行内样式快捷键提升您的编辑效率；</p></li><li><p>输出 HTML 和 PDF 格式文件，方便在浏览器中预览；</p></li><li><p>黑、白两款主题，自由切换；</p></li><li><p>多种编辑模式：<strong>Source Code mode</strong>、<strong>Typewriter mode</strong>、<strong>Focus mode</strong>。</p></li></ul><h1 id="可以斗图的-Markdown-编辑器-这点大赞"><a href="#可以斗图的-Markdown-编辑器-这点大赞" class="headerlink" title="可以斗图的 Markdown 编辑器(这点大赞)"></a>可以斗图的 Markdown 编辑器(这点大赞)</h1><p>Mark Text 内置斗图功能，省掉了寻找「斗图」的烦恼，通过快捷键 Cmd+/ 直接打开斗图搜索面板，你需要的有趣图片就在里面。斗图功能默认是关闭的，你需要从user preference 菜单中，打开 preference.md, 然后设置 aidou 为 true。保存然后重启编辑器就可以使用了。</p><blockquote><p><img src="https://ws3.sinaimg.cn/large/005BYqpggy1g3x0c7xenjj3073073ace.jpg" alt="5cff0965d823d91141"></p></blockquote><p><img src="https://ws3.sinaimg.cn/large/005BYqpggy1g3x0bzi8wsj311y0lcn5x.jpg" alt="图片"></p><h2 id="还有一点就是界面非常非常简洁漂亮"><a href="#还有一点就是界面非常非常简洁漂亮" class="headerlink" title="还有一点就是界面非常非常简洁漂亮"></a>还有一点就是界面非常非常简洁漂亮</h2><p><img src="https://ws3.sinaimg.cn/large/005BYqpggy1g3x0b7cngnj311y0lcn1y.jpg" alt="主题一"></p><p><img src="https://ws3.sinaimg.cn/large/005BYqpggy1g3x0bq007cj311y0lc0xo.jpg" alt="主题二"></p><p>感兴趣的小伙伴可以去看看</p><p><a href="https://marktext.app/" target="_blank" rel="noopener">marktext</a></p><p><a href="https://github.com/marktext/marktext" target="_blank" rel="noopener">github</a></p><hr><p>Δ~~~~Δ<br> ξ •ェ• ξ<br> ξ　~　ξ<br> ξ　　 ξ<br> ξ　　　“~～~～〇<br> ξ　　　　　　 ξ<br> ξ　ξ　ξ~～~ξ　ξ<br> 　ξ_ξξ<em>ξ　ξ</em>ξξ_ξ<br> 　　ヽ(´•ω•)ノ<br> 　　　 |　 /<br> 　　　 UU”</p><blockquote><p>本文结束谢谢大家的阅读</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> MarkText </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MarkText </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>原生js实现瀑布流效果</title>
       <link href="/2019/06/04/%E7%80%91%E5%B8%83%E6%B5%81%E5%8E%9F%E7%94%9Fjs/"/>
       <url>/2019/06/04/%E7%80%91%E5%B8%83%E6%B5%81%E5%8E%9F%E7%94%9Fjs/</url>
