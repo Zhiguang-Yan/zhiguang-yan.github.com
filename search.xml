@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>vue项目中用sass</title>
+      <link href="/2019/06/22/vue%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%94%A8sass/"/>
+      <url>/2019/06/22/vue%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%94%A8sass/</url>
+      
+        <content type="html"><![CDATA[<h1 id="vue项目中用sass"><a href="#vue项目中用sass" class="headerlink" title="vue项目中用sass"></a>vue项目中用sass</h1><p>CSS扩展语言可以极大减少css代码的冗余量,而且比css更加容易维护。至于为啥不是less,stylus而是sass？因为<strong>SASS - 成熟、稳定、强大的 CSS 扩展语言解析器。（官方洗脑最为致命）</strong>言归正传下面就示范一遍如何在vue中用sass</p>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save-dev sass-loader</span><br></pre></td></tr></table></figure>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save-dev node-sass</span><br></pre></td></tr></table></figure>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">在webpack.base.conf</span><br><span class="line"></span><br><span class="line">配置规则</span><br><span class="line">&#123;</span><br><span class="line">    test: /\.scss$/,</span><br><span class="line"></span><br><span class="line">    loaders: [&apos;style&apos;, &apos;css&apos;, &apos;sass&apos;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><p>Δ~~~~Δ<br> ξ •ェ• ξ<br> ξ　~　ξ<br> ξ　　 ξ<br> ξ　　　“~～~～〇<br> ξ　　　　　　 ξ<br> ξ　ξ　ξ~～~ξ　ξ<br> 　ξ_ξξ<em>ξ　ξ</em>ξξ_ξ<br> 　　ヽ(´•ω•)ノ<br> 　　　 |　 /<br> 　　　 UU”</p><blockquote><p>本文结束谢谢大家的阅读</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> sass </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> sass </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>css小零件</title>
       <link href="/2019/06/17/%E5%AE%9E%E7%94%A8%E7%9A%84css%E5%B0%8F%E9%83%A8%E4%BB%B6/"/>
       <url>/2019/06/17/%E5%AE%9E%E7%94%A8%E7%9A%84css%E5%B0%8F%E9%83%A8%E4%BB%B6/</url>
