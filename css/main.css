@@ -1683,6 +1683,16 @@ pre .javascript .function {
 .rtl.post-title {
   font-family: UKIJ Ekran;
 }
+.reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #37c6c0;
+}
 .post-body p a {
   color: #9c9;
   border-bottom: none;
@@ -1783,9 +1793,6 @@ pre .javascript .function {
   border: 1px solid #eee;
   opacity: 1;
 }
-.site-author-image {
-  border-radius: 100%;
-}
 .site-author-name {
   margin: 0;
   text-align: center;
@@ -1819,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7dff8f;
+  background: #2e79ff;
 }
 .feed-link,
 .chat {

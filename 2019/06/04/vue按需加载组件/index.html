@@ -111,18 +111,18 @@
 
 
 
-  <meta name="description" content="1.vue异步组件技术vue-router配置路由，使用vue的异步组件技术，可以实现按需加载。 但是，这种情况下一个组件生成一个js文件。 举例如下：12345&amp;#123;  path: &apos;/promisedemo&apos;,  name: &apos;PromiseDemo&apos;,  component: resolve =&amp;gt; require([&apos;../components/PromiseDemo&apos;], re">
-<meta name="keywords" content="vue异步加载组件">
+  <meta name="description" content="1.Vue异步组件技术Vue-router配置路由，使用Vue的异步组件技术，可以实现按需加载。 但是，这种情况下一个组件生成一个js文件。 举例如下：12345&amp;#123;  path: &apos;/promisedemo&apos;,  name: &apos;PromiseDemo&apos;,  component: resolve =&amp;gt; require([&apos;../components/PromiseDemo&apos;], re">
+<meta name="keywords" content="Vue异步加载组件">
 <meta property="og:type" content="article">
-<meta property="og:title" content="vue项目实现按需加载的3种方式">
+<meta property="og:title" content="Vue项目实现按需加载的3种方式">
 <meta property="og:url" content="http://yoursite.com/2019/06/04/vue按需加载组件/index.html">
 <meta property="og:site_name" content="特别耐撕的小前端，不想局限于前端的攻城狮">
-<meta property="og:description" content="1.vue异步组件技术vue-router配置路由，使用vue的异步组件技术，可以实现按需加载。 但是，这种情况下一个组件生成一个js文件。 举例如下：12345&amp;#123;  path: &apos;/promisedemo&apos;,  name: &apos;PromiseDemo&apos;,  component: resolve =&amp;gt; require([&apos;../components/PromiseDemo&apos;], re">
+<meta property="og:description" content="1.Vue异步组件技术Vue-router配置路由，使用Vue的异步组件技术，可以实现按需加载。 但是，这种情况下一个组件生成一个js文件。 举例如下：12345&amp;#123;  path: &apos;/promisedemo&apos;,  name: &apos;PromiseDemo&apos;,  component: resolve =&amp;gt; require([&apos;../components/PromiseDemo&apos;], re">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-04T04:24:01.813Z">
+<meta property="og:updated_time" content="2019-06-25T15:15:56.863Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="vue项目实现按需加载的3种方式">
-<meta name="twitter:description" content="1.vue异步组件技术vue-router配置路由，使用vue的异步组件技术，可以实现按需加载。 但是，这种情况下一个组件生成一个js文件。 举例如下：12345&amp;#123;  path: &apos;/promisedemo&apos;,  name: &apos;PromiseDemo&apos;,  component: resolve =&amp;gt; require([&apos;../components/PromiseDemo&apos;], re">
+<meta name="twitter:title" content="Vue项目实现按需加载的3种方式">
+<meta name="twitter:description" content="1.Vue异步组件技术Vue-router配置路由，使用Vue的异步组件技术，可以实现按需加载。 但是，这种情况下一个组件生成一个js文件。 举例如下：12345&amp;#123;  path: &apos;/promisedemo&apos;,  name: &apos;PromiseDemo&apos;,  component: resolve =&amp;gt; require([&apos;../components/PromiseDemo&apos;], re">
 
 
 
@@ -140,7 +140,7 @@
   };
 </script>
 
-  <title>vue项目实现按需加载的3种方式 | 特别耐撕的小前端，不想局限于前端的攻城狮</title>
+  <title>Vue项目实现按需加载的3种方式 | 特别耐撕的小前端，不想局限于前端的攻城狮</title>
   
 
 
@@ -403,6 +403,8 @@
   
 
   
+    <div class="reading-progress-bar"></div>
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
@@ -426,7 +428,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">vue项目实现按需加载的3种方式
+          <h1 class="post-title" itemprop="name headline">Vue项目实现按需加载的3种方式
 
               
             
@@ -452,12 +454,24 @@
                 
               
 
-              <time title="创建时间：2019-06-04 09:49:21 / 修改时间：12:24:01" itemprop="dateCreated datePublished" datetime="2019-06-04T09:49:21+08:00">2019-06-04</time>
+              <time title="创建时间：2019-06-04 09:49:21" itemprop="dateCreated datePublished" datetime="2019-06-04T09:49:21+08:00">2019-06-04</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-06-25 23:15:56" itemprop="dateModified" datetime="2019-06-25T23:15:56+08:00">2019-06-25</time>
               
             
           </span>
@@ -550,10 +564,10 @@
       
 
       
-        <h1 id="1-vue异步组件技术"><a href="#1-vue异步组件技术" class="headerlink" title="1.vue异步组件技术"></a>1.vue异步组件技术</h1><p><strong>vue-router配置路由，使用vue的<a href="组件 — Vue.js">异步组件</a>技术，可以实现按需加载。 但是，这种情况下一个组件生成一个js文件。 举例如下：</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  path: <span class="string">'/promisedemo'</span>,</span><br><span class="line">  name: <span class="string">'PromiseDemo'</span>,</span><br><span class="line">  component: <span class="function"><span class="params">resolve</span> =&gt;</span> <span class="built_in">require</span>([<span class="string">'../components/PromiseDemo'</span>], resolve)</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure></p>
-<h1 id="2-es提案的import"><a href="#2-es提案的import" class="headerlink" title="2.es提案的import()"></a>2.es提案的import()</h1><p><strong>推荐使用这种方式(需要webpack &gt; 2.4)<br>webpack官方文档：webpack中使用import() （代码分离)vue官方文档：<a href="懒加载 · vue-router">路由懒加载(使用import())</a><br>vue-router配置路由，代码如下: </strong></p>
+        <h1 id="1-Vue异步组件技术"><a href="#1-Vue异步组件技术" class="headerlink" title="1.Vue异步组件技术"></a>1.Vue异步组件技术</h1><p><strong>Vue-router配置路由，使用Vue的<a href="组件 — Vue.js">异步组件</a>技术，可以实现按需加载。 但是，这种情况下一个组件生成一个js文件。 举例如下：</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  path: <span class="string">'/promisedemo'</span>,</span><br><span class="line">  name: <span class="string">'PromiseDemo'</span>,</span><br><span class="line">  component: <span class="function"><span class="params">resolve</span> =&gt;</span> <span class="built_in">require</span>([<span class="string">'../components/PromiseDemo'</span>], resolve)</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="2-es提案的import"><a href="#2-es提案的import" class="headerlink" title="2.es提案的import()"></a>2.es提案的import()</h1><p><strong>推荐使用这种方式(需要webpack &gt; 2.4)<br>webpack官方文档：webpack中使用import() （代码分离)Vue官方文档：<a href="懒加载 · Vue-router">路由懒加载(使用import())</a><br>Vue-router配置路由，代码如下: </strong></p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 下面2行代码，没有指定webpackChunkName，每个组件打包成一个js文件。</span></span><br><span class="line"><span class="keyword">const</span> ImportFuncDemo1 = <span class="function"><span class="params">()</span> =&gt;</span> <span class="keyword">import</span>(<span class="string">'../components/ImportFuncDemo1'</span>)</span><br><span class="line"><span class="keyword">const</span> ImportFuncDemo2 = <span class="function"><span class="params">()</span> =&gt;</span> <span class="keyword">import</span>(<span class="string">'../components/ImportFuncDemo2'</span>)</span><br><span class="line"><span class="comment">// 下面2行代码，指定了相同的webpackChunkName，会合并打包成一个js文件。</span></span><br><span class="line"><span class="comment">// const ImportFuncDemo = () =&gt; import(/* webpackChunkName: 'ImportFuncDemo' */ '../components/ImportFuncDemo')</span></span><br><span class="line"><span class="comment">// const ImportFuncDemo2 = () =&gt; import(/* webpackChunkName: 'ImportFuncDemo' */ '../components/ImportFuncDemo2')</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">new</span> Router(&#123;</span><br><span class="line">   routes: [</span><br><span class="line">       &#123;</span><br><span class="line">           path: <span class="string">'/importfuncdemo1'</span>,</span><br><span class="line">           name: <span class="string">'ImportFuncDemo1'</span>,</span><br><span class="line">           component: ImportFuncDemo1</span><br><span class="line">       &#125;,</span><br><span class="line">       &#123;</span><br><span class="line">           path: <span class="string">'/importfuncdemo2'</span>,</span><br><span class="line">           name: <span class="string">'ImportFuncDemo2'</span>,</span><br><span class="line">           component: ImportFuncDemo2</span><br><span class="line">       &#125;</span><br><span class="line">   ]</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<h1 id="3-webpack提供的require-ensure"><a href="#3-webpack提供的require-ensure" class="headerlink" title="3. webpack提供的require.ensure()"></a>3. webpack提供的require.ensure()</h1><p><strong>vue-router配置路由，使用webpack的<a href="Module API - Methods">require.ensure</a>技术，也可以实现按需加载。 这种情况下，多个路由指定相同的chunkName，会合并打包成一个js文件。 举例如下：</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">         path: <span class="string">'/promisedemo'</span>,</span><br><span class="line">         name: <span class="string">'PromiseDemo'</span>,</span><br><span class="line">         component: <span class="function"><span class="params">r</span> =&gt;</span> <span class="built_in">require</span>.ensure([], () =&gt; r(<span class="built_in">require</span>(<span class="string">'../components/PromiseDemo'</span>)), <span class="string">'demo'</span>)</span><br><span class="line">     &#125;,</span><br><span class="line">     &#123;</span><br><span class="line">         path: <span class="string">'/hello'</span>,</span><br><span class="line">         name: <span class="string">'Hello'</span>,</span><br><span class="line">         <span class="comment">// component: Hello</span></span><br><span class="line">         component: <span class="function"><span class="params">r</span> =&gt;</span> <span class="built_in">require</span>.ensure([], () =&gt; r(<span class="built_in">require</span>(<span class="string">'../components/Hello'</span>)), <span class="string">'demo'</span>)</span><br><span class="line">     &#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="3-webpack提供的require-ensure"><a href="#3-webpack提供的require-ensure" class="headerlink" title="3. webpack提供的require.ensure()"></a>3. webpack提供的require.ensure()</h1><p><strong>Vue-router配置路由，使用webpack的<a href="Module API - Methods">require.ensure</a>技术，也可以实现按需加载。 这种情况下，多个路由指定相同的chunkName，会合并打包成一个js文件。 举例如下：</strong><br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">         path: <span class="string">'/promisedemo'</span>,</span><br><span class="line">         name: <span class="string">'PromiseDemo'</span>,</span><br><span class="line">         component: <span class="function"><span class="params">r</span> =&gt;</span> <span class="built_in">require</span>.ensure([], () =&gt; r(<span class="built_in">require</span>(<span class="string">'../components/PromiseDemo'</span>)), <span class="string">'demo'</span>)</span><br><span class="line">     &#125;,</span><br><span class="line">     &#123;</span><br><span class="line">         path: <span class="string">'/hello'</span>,</span><br><span class="line">         name: <span class="string">'Hello'</span>,</span><br><span class="line">         <span class="comment">// component: Hello</span></span><br><span class="line">         component: <span class="function"><span class="params">r</span> =&gt;</span> <span class="built_in">require</span>.ensure([], () =&gt; r(<span class="built_in">require</span>(<span class="string">'../components/Hello'</span>)), <span class="string">'demo'</span>)</span><br><span class="line">     &#125;</span><br></pre></td></tr></table></figure></p>
 <hr>
 <p>Δ~~~~Δ<br> ξ •ェ• ξ<br> ξ　~　ξ<br> ξ　　 ξ<br> ξ　　　“~～~～〇<br> ξ　　　　　　 ξ<br> ξ　ξ　ξ~～~ξ　ξ<br> 　ξ_ξξ<em>ξ　ξ</em>ξξ_ξ<br> 　　ヽ(´•ω•)ノ<br> 　　　 |　 /<br> 　　　 UU”</p>
 <blockquote>
@@ -615,7 +629,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/vue异步加载组件/" rel="tag"><i class="fa fa-google"></i>vue异步加载组件</a>
+            <a href="/tags/Vue异步加载组件/" rel="tag"><i class="fa fa-google"></i>Vue异步加载组件</a>
           
         </div>
       
@@ -638,8 +652,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/06/04/vue项目中关闭ESLint/" rel="prev" title="vue项目中关闭ESLint">
-                vue项目中关闭ESLint <i class="fa fa-chevron-right"></i>
+              <a href="/2019/06/04/vue项目中关闭ESLint/" rel="prev" title="Vue项目中关闭ESLint">
+                Vue项目中关闭ESLint <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -715,7 +729,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">10</span>
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -785,7 +799,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">10</span>
+                      
+                    
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -874,7 +890,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-vue异步组件技术"><span class="nav-number">1.</span> <span class="nav-text">1.vue异步组件技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-es提案的import"><span class="nav-number">2.</span> <span class="nav-text">2.es提案的import()</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-webpack提供的require-ensure"><span class="nav-number">3.</span> <span class="nav-text">3. webpack提供的require.ensure()</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-Vue异步组件技术"><span class="nav-number">1.</span> <span class="nav-text">1.Vue异步组件技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-es提案的import"><span class="nav-number">2.</span> <span class="nav-text">2.es提案的import()</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-webpack提供的require-ensure"><span class="nav-number">3.</span> <span class="nav-text">3. webpack提供的require.ensure()</span></a></li></ol></div>
             
 
           </div>
@@ -916,7 +932,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">41 分钟</span>
+    <span title="站点阅读时长">42 分钟</span>
   
 </div>
 
@@ -1010,6 +1026,8 @@
 
 
 
+  
+
 
 
   
@@ -1020,6 +1038,9 @@
 
   
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/reading_progress/reading_progress.js"></script>
 
 
   
