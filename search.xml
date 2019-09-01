@@ -279,6 +279,31 @@
     
     
     <entry>
+      <title>数组去重和冒泡算法</title>
+      <link href="/2019/05/27/%E7%AE%97%E6%B3%95/"/>
+      <url>/2019/05/27/%E7%AE%97%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>#数组去重和冒泡算法</p><p>##数组去重<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">unique</span>(<span class="params">array</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (!<span class="built_in">Array</span>.isArray(array)) &#123;</span><br><span class="line">            <span class="keyword">return</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">Array</span>.from(<span class="keyword">new</span> <span class="built_in">Set</span>(array))</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p><p>##冒泡算法</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">maoPao</span>(<span class="params">array</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">const</span> max = array.length - <span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; max; i++) &#123;</span><br><span class="line">        <span class="keyword">let</span> done = <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">let</span> j = <span class="number">0</span>; j &lt; max - i; j++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (array[j] &gt; array[j + <span class="number">1</span>]) &#123;</span><br><span class="line">                <span class="keyword">let</span> temp = array[j];</span><br><span class="line">                array[j] = array[j + <span class="number">1</span>];</span><br><span class="line">                array[j + <span class="number">1</span>] = temp;</span><br><span class="line">                done = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//排序完成后直接返回避免性能浪费</span></span><br><span class="line">        <span class="keyword">if</span> (done) &#123;</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> array;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><p>Δ~~~~Δ<br> ξ •ェ• ξ<br> ξ　~　ξ<br> ξ　　 ξ<br> ξ　　　“~～~～〇<br> ξ　　　　　　 ξ<br> ξ　ξ　ξ~～~ξ　ξ<br> 　ξ_ξξ<em>ξ　ξ</em>ξξ_ξ<br> 　　ヽ(´•ω•)ノ<br> 　　　 |　 /<br> 　　　 UU”</p><blockquote><p>本文结束谢谢大家的阅读</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>css经典布局</title>
       <link href="/2019/05/27/%E5%89%8D%E7%AB%AF%E7%BB%8F%E5%85%B8%E5%B8%83%E5%B1%80%E5%8F%8C%E9%A3%9E%E7%BF%BC%E5%92%8C%E5%9C%A3%E6%9D%AF%E5%B8%83%E5%B1%80%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
       <url>/2019/05/27/%E5%89%8D%E7%AB%AF%E7%BB%8F%E5%85%B8%E5%B8%83%E5%B1%80%E5%8F%8C%E9%A3%9E%E7%BF%BC%E5%92%8C%E5%9C%A3%E6%9D%AF%E5%B8%83%E5%B1%80%E7%9A%84%E5%AE%9E%E7%8E%B0/</url>
